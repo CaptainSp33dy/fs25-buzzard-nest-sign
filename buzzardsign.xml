@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="simplePlaceable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>
+			<en>$l10n_Buzzard_Nest_Sign</en>
+		</name>
+        <functions>
+            <function>$l10n_function_garage</function>
+        </functions>
+        <image>store/store_buzzardsign.png</image>
+        <price>300</price>
+        <lifetime>1000</lifetime>		
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>sheds</category>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <brush>
+            <type>placeable</type>
+            <category>buildings</category>
+            <tab>sheds</tab>
+        </brush>		
+        <vertexBufferMemoryUsage>71168</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>13568</indexBufferMemoryUsage>
+        <textureMemoryUsage>2228224</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+	<base>
+		<filename>buzzard_farm_wooden_sign.i3d</filename>
+	</base>
+	
+	<placement useRandomYRotation="false" useManualYRotation="true" >
+		<testAreas>
+			<testArea startNode="testStart1" endNode="testEnd1" />
+		</testAreas>	
+	</placement>
+	
+    <clearAreas>	
+		<clearArea startNode="clearStart1" widthNode="clearWidth1" heightNode="clearHeight1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="levelStart1" widthNode="levelWidth1" heightNode="levelHeight1" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorStart1" widthNode="indoorWidth1" heightNode="indoorHeight1" />
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+        </updateAreas>
+    </ai>
+
+    <i3dMappings>
+        <i3dMapping id="levelStart1" node="0>1|0" />
+        <i3dMapping id="levelWidth1" node="0>1|0|0" />
+        <i3dMapping id="levelHeight1" node="0>1|0|1" />	
+        <i3dMapping id="clearStart1" node="0>2|0" />
+		<i3dMapping id="clearWidth1" node="0>2|0|0" />
+        <i3dMapping id="clearHeight1" node="0>2|0|1" />
+        <i3dMapping id="indoorStart1" node="0>3|0" />
+        <i3dMapping id="indoorWidth1" node="0>3|0|0" />
+        <i3dMapping id="indoorHeight1" node="0>3|0|1" />
+        <i3dMapping id="testStart1" node="0>4|0" />
+        <i3dMapping id="testEnd1" node="0>4|0|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>5|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1End" node="0>5|0|0" />
+    </i3dMappings>
+</placeable>

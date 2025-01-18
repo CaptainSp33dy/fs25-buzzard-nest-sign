@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="94">
+    <author>CaptainSp33dy</author>
+	<version>1.0.0.0</version>
+	<title>
+		<en>BuzzardNest Sign</en>
+	</title>
+	<description>
+	<en><![CDATA[BuzzardNest Sign this is the first mod that is 100% made by me. Tools used are Blender, and Giant Editor.
+
+Price: 300 $
+Daily maintenance: 1 $
+
+info of round sign
+Price: 200 $
+Daily maintenance: 0 $
+
+Hope you all like this mod , I have a lot of hard work & time into it
+
+.]]></en>
+</description>
+
+	
+    <iconFilename>icon/icon_buzzardsign.dds</iconFilename>
+	
+	<multiplayer supported="true" />
+	
+	<storeItems>
+        <storeItem xmlFilename="buzzardsign.xml" />
+    </storeItems>
+</modDesc>
