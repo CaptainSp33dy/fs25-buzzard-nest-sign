@@ -6,11 +6,12 @@ To use the mod make sure to head to the document/my games/farmingsimulator25/mod
 If you need help let me know and if for any reason the mod isnt working for you, please drop a comment.
 
 Heres a scan of the folder made.
-TotalVirus: https://www.virustotal.com/gui/file/7fae414d8ac4c4557c99d0a87795f6f9a5d2e3fbcd6780bca5837bd37e0d2e7b
 
-Full Changelog: https://github.com/tris542/fs25-buzzard-nest-sign/commits/mod
+**TotalVirus**: https://www.virustotal.com/gui/file/7fae414d8ac4c4557c99d0a87795f6f9a5d2e3fbcd6780bca5837bd37e0d2e7b
 
-Full Changelog: https://github.com/tris542/fs25-buzzard-nest-sign/commits/v1
+**Full Changelog**: https://github.com/tris542/fs25-buzzard-nest-sign/commits/mod
+
+**Full Changelog**: https://github.com/tris542/fs25-buzzard-nest-sign/commits/v1
 
 BuzzardNest Sign this is the first mod that is 100% made by me. Tools used are Blender, and Giant Editor.
 
