@@ -28,8 +28,3 @@ Daily maintenance: 0 $
 
 
 Hope you all like this mod , I have a lot of hard work &amp; time into it
-
-
-## Modified Open-Source Licence
-
-This mod is distributed for personal use only. Modification, adaptation, reverse engineering, or redistribution of this mod in any form is strictly prohibited without the explicit written permission of the author.
