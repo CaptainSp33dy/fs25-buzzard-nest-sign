@@ -30,7 +30,7 @@ Daily maintenance: 0 $
 Hope you all like this mod , I have a lot of hard work &amp; time into it
 
 
-#Creative Commons Attribution-NoDerivatives 4.0 (CC BY-ND 4.0)
+# Creative Commons Attribution-NoDerivatives 4.0 (CC BY-ND 4.0)
 
 You are free to:
 Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
