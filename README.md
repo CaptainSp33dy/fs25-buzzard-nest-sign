@@ -1,11 +1,8 @@
 # fs25-buzzard-nest-sign
 BuzzardNest Sign is a mod for Farming Simulator 25, the mod contains a custom sign fully made with blender and the i3d made with giant editor.
 
-To use the mod make sure to head to the document/my games/farmingsimulator25/mods and drop the zip folder there.
+You can head my Github Wiki page to learn more about the mod. -> [Wiki page](https://github.com/CaptainSp33dy/fs25-buzzard-nest-sign/wiki)
 
-If you need help let me know and if for any reason the mod isnt working for you, please drop a comment.
-
-Heres a scan of the folder made.
 
 **TotalVirus**: https://www.virustotal.com/gui/file/7fae414d8ac4c4557c99d0a87795f6f9a5d2e3fbcd6780bca5837bd37e0d2e7b
 
@@ -14,6 +11,8 @@ Heres a scan of the folder made.
 **Full Changelog**: https://github.com/tris542/fs25-buzzard-nest-sign/commits/v1
 
 BuzzardNest Sign this is the first mod that is 100% made by me. Tools used are Blender, and Giant Editor.
+
+need 
 
 
 Sceenshots
