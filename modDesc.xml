@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="94">
     <author>CaptainSp33dy</author>
-	<version>1.0.0.0</version>
+	<version>1.0.0.1</version>
 	<title>
 		<en>BuzzardNest Sign</en>
 	</title>
@@ -16,6 +16,9 @@ Price: 200 $
 Daily maintenance: 0 $
 
 Hope you all like this mod , I have a lot of hard work & time into it
+
+Mod Improvements:
+Topology Reduced - Poly Count has been reduced to help with server run times. 
 
 .]]></en>
 </description>
