@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="buzzard_farm_wooden_sign.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="7" filename="../EAV22_Tractor_sign/Models/textures/169_fiber cement texture-seamless.jpg"/>
+    <File fileId="1" filename="Textures/Diffuse.png"/>
+    <File fileId="4" filename="Textures/Diffuse2.png"/>
+    <File fileId="2" filename="Textures/Normal.png"/>
+    <File fileId="5" filename="Textures/Normal2.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Base Sign texture" materialId="22" specularColor="0.494118 1 0">
+      <Texture fileId="7"/>
+    </Material>
+    <Material name="lambert1" materialId="23" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="Material" materialId="86" specularColor="0.501961 1 0">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+    </Material>
+    <Material name="Material.001" materialId="89" specularColor="0.501961 1 0">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="buzzard_farm_wooden_sign.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="Tractor_sign" clipDistance="500" nodeId="35">
+      <TransformGroup name="visuals" nodeId="36">
+        <TransformGroup name="transform" translation="-0.0799635 0 2.60554e-08" rotation="-0 90 0" scale="0.942442 0.940139 0.942797" nodeId="37">
+          <Shape name="path3.001" translation="0.44424 15.1061 0.35339" rotation="90 -0 11.1768" scale="14.2862 5 13.9485" shapeId="1" nodeId="83" castsShadows="true" receiveShadows="true" materialIds="89"/>
+          <Shape name="Cube" translation="0 13.2102 0" scale="4.44999 3.15 0.583333" shapeId="2" nodeId="78" castsShadows="true" receiveShadows="true" materialIds="86"/>
+          <Shape name="path1" translation="0 14.8362 0.250314" rotation="90 -0 0" scale="11.0682 11 9.69842" shapeId="3" nodeId="80" castsShadows="true" receiveShadows="true" materialIds="89"/>
+          <Shape name="path2" translation="0.0553673 14.8615 0.296196" rotation="90 -0 0" scale="12.8576 5 10.4299" shapeId="4" nodeId="81" castsShadows="true" receiveShadows="true" materialIds="89"/>
+          <Shape name="path3" translation="0.0613764 14.909 0.35339" rotation="90 -0 0" scale="14.2862 5 13.9485" shapeId="1" nodeId="82" castsShadows="true" receiveShadows="true" materialIds="89"/>
+          <Shape name="Buzzard Nest Farm" translation="-3.78474 12.9559 0.361705" rotation="90 -0 0" scale="2.37894 5 2.31688" shapeId="5" nodeId="77" castsShadows="true" receiveShadows="true" materialIds="89"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelArea" nodeId="44">
+        <TransformGroup name="levelStart1" translation="-3 -6.85746e-10 6" rotation="-1.89809e-06 90 -1.8932e-06" nodeId="45">
+          <TransformGroup name="levelWidth1" translation="11.3298 0 0" nodeId="46"/>
+          <TransformGroup name="levelHeight1" translation="0 0 6" nodeId="47"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="clearAreas" nodeId="48">
+        <TransformGroup name="clearStart1" translation="-2.99545 0 5.5" rotation="0 90 0" nodeId="49">
+          <TransformGroup name="clearWidth1" translation="11.0316 0 0" nodeId="50"/>
+          <TransformGroup name="clearHeight1" translation="0 0 6" nodeId="51"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="indoorAreas" nodeId="52">
+        <TransformGroup name="indoorStart1" translation="-2.5 0 5.24451" rotation="0 90 0" nodeId="53">
+          <TransformGroup name="indoorWidth1" translation="10.376 0 0" nodeId="54"/>
+          <TransformGroup name="indoorHeight1" translation="0 0 5.4042" nodeId="55"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="testAreas" nodeId="56">
+        <TransformGroup name="testStart1" translation="-2.63684 -2.24716e-14 5.24613" rotation="-3.93778e-07 90 -3.7936e-07" nodeId="57">
+          <TransformGroup name="testEnd1" translation="10.3451 4.59238 6.22656" nodeId="58"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipOcclusionUpdateAreas" nodeId="59">
+        <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-2.69715 0 5.34388" rotation="0 90 0" nodeId="60">
+          <TransformGroup name="tipOcclusionUpdateArea1End" translation="10.7217 0 5.743" nodeId="61"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="tipCols" nodeId="62">
+        <Shape name="tipCol01" translation="-2.35796 1.68436 -0.004" shapeId="6" static="true" collisionFilterGroup="0x80000" collisionFilterMask="0x80000" nodeId="63" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="23"/>
+        <Shape name="tipCol02" translation="-0.0529085 1.68436 -4.92153" shapeId="7" static="true" collisionFilterGroup="0x80000" collisionFilterMask="0x80000" nodeId="64" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="23"/>
+        <Shape name="tipCol03" translation="-0.0529052 1.68436 4.86355" shapeId="7" static="true" collisionFilterGroup="0x80000" collisionFilterMask="0x80000" nodeId="65" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="23"/>
+        <Shape name="tipCol04" translation="2.38275 1.68436 -7.93636e-07" shapeId="8" static="true" collisionFilterGroup="0x80000" collisionFilterMask="0x80000" nodeId="66" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="23"/>
+      </TransformGroup>
+      <TransformGroup name="collisions" nodeId="67">
+        <Shape name="Coll" translation="-0.2 2.05286 -0.000105572" rotation="9.95663e-06 90 9.95174e-06" scale="2.99 2.16 0.4" shapeId="9" static="true" nodeId="68" castsShadows="false" receiveShadows="false" nonRenderable="true" materialIds="22"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
